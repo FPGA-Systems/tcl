@@ -18,7 +18,7 @@
 4. Tcl Tutorial
      https://www.tcl.tk/man/tcl8.5/tutorial/tcltutorial.html
 5. Наши статьи по работе с Tcl в Vivado
-   5.1 Скрытый режим работы в Vivado:  Vivado Picasso mode
+   5.1. Скрытый режим работы в Vivado:  Vivado Picasso mode
           https://fpga-systems.ru/publ/xilinx/others/vivado_picasso_mode/44-1-0-97
    5.2 Vivado reprorts :: report_clock_networks
            https://fpga-systems.ru/publ/xilinx/xilinx_vivado/vivado_reprorts_gt_report_clock_networks/8-1-0-12
