@@ -1,0 +1,35 @@
+*
+# !*/
+
+!.gitignore
+!*.md
+
+# Folders
+!*
+!*/**/
+
+
+# Source files:
+!*.vhd
+!*.v
+!*.bd
+!*.edif
+
+# Simulation logic analyzer
+!*.wcfg
+
+!*.prj
+!*.mem
+
+# Project files
+!*.xpr
+
+# Constraint files
+!*.xdc
+
+# TCL - files
+!*.tcl
+
+# Documents
+!*.pdf
+!*.jpg

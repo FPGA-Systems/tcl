@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Mar 20 11:09:31 2021
+# Process ID: 8252
+# Current directory: C:/prj/tcl/wave_gen/wave_gen.runs/synth_1
+# Command line: vivado.exe -log wave_gen.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wave_gen.tcl
+# Log file: C:/prj/tcl/wave_gen/wave_gen.runs/synth_1/wave_gen.vds
+# Journal file: C:/prj/tcl/wave_gen/wave_gen.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source wave_gen.tcl -notrace

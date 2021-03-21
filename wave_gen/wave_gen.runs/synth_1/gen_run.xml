@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k70tfbg676-1" LaunchTime="1616333041">
+  <File Type="PA-TCL" Name="wave_gen.tcl"/>
+  <File Type="REPORTS-TCL" Name="wave_gen_reports.tcl"/>
+  <File Type="RDS-RDS" Name="wave_gen.vds"/>
+  <File Type="RDS-UTIL" Name="wave_gen_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="wave_gen_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="wave_gen.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/clk_div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/clk_div.v"/>
+        <Attr Name="ImportTime" Val="1605672476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/clk_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/clk_gen.v"/>
+        <Attr Name="ImportTime" Val="1605672470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/clogb2.vh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/clogb2.vh"/>
+        <Attr Name="ImportTime" Val="1605672470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/clkx_bus.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/clkx_bus.v"/>
+        <Attr Name="ImportTime" Val="1605672470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/cmd_parse.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/cmd_parse.v"/>
+        <Attr Name="ImportTime" Val="1605672470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/dac_spi.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/dac_spi.v"/>
+        <Attr Name="ImportTime" Val="1605672476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/debouncer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/debouncer.v"/>
+        <Attr Name="ImportTime" Val="1605672475"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/lb_ctl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/lb_ctl.v"/>
+        <Attr Name="ImportTime" Val="1605672476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/meta_harden.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/meta_harden.v"/>
+        <Attr Name="ImportTime" Val="1605672476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/out_ddr_flop.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/out_ddr_flop.v"/>
+        <Attr Name="ImportTime" Val="1605672475"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/reset_bridge.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/reset_bridge.v"/>
+        <Attr Name="ImportTime" Val="1605672476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/resp_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/resp_gen.v"/>
+        <Attr Name="ImportTime" Val="1605672475"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/rst_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/rst_gen.v"/>
+        <Attr Name="ImportTime" Val="1605672476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/samp_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/samp_gen.v"/>
+        <Attr Name="ImportTime" Val="1605672476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/samp_ram.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/samp_ram.v"/>
+        <Attr Name="ImportTime" Val="1605672474"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/to_bcd.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/to_bcd.v"/>
+        <Attr Name="ImportTime" Val="1605672475"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/uart_baud_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/uart_baud_gen.v"/>
+        <Attr Name="ImportTime" Val="1605672475"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/uart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/uart_rx.v"/>
+        <Attr Name="ImportTime" Val="1605672476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/uart_rx_ctl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/uart_rx_ctl.v"/>
+        <Attr Name="ImportTime" Val="1605672476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/uart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/uart_tx.v"/>
+        <Attr Name="ImportTime" Val="1605672475"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/uart_tx_ctl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/uart_tx_ctl.v"/>
+        <Attr Name="ImportTime" Val="1605672476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/kintex7/wave_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/wave_gen.v"/>
+        <Attr Name="ImportTime" Val="1605672470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/tcl/script.tcl">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="wave_gen"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/xc7k70tfbg676-1/wave_gen_timing.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/xc7k70tfbg676-1/wave_gen_timing.xdc"/>
+        <Attr Name="ImportTime" Val="1605672470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/xc7k70tfbg676-1/wave_gen_pins.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Xilinx/Vivado/2020.2/data/ced/nonIPI/wave_gen/Sources/kintex7/xc7k70tfbg676-1/wave_gen_pins.xdc"/>
+        <Attr Name="ImportTime" Val="1605672470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/xc7k70tfbg676-1/wave_gen_timing.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_core"/>
+  <BlockFileSet Type="BlockSrcs" Name="char_fifo"/>
+</GenRun>
