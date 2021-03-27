@@ -3,6 +3,7 @@ save_constraints
 
 set pins [get_pins -of_objects [get_selected_objects ]]
 
+set clocks [get_clocks -of_objects [get_selected_objects]]
 #connect_debug_port u_ila_0/clk [get_nets [list resp_gen_i0/CLK ]]
 
 create_debug_core u_ila_0 ila
